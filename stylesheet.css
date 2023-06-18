@@ -1,0 +1,90 @@
+main, aside {
+    font-size: 16px;
+    background-color: #c6eba1;
+    border: 3px ridge black ;
+    border-radius: 6px;
+    
+    margin-right: 0%;
+    margin-left: 1%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    font-family: 'Lucida Sans', 'Courier New', monospace;
+    display: inline-block;
+    vertical-align: top;
+
+    max-width: 80%;
+}
+
+snippet {
+    font-size: 15px;
+    background-color: #c6eba1;
+    border: 3px ridge black ;
+    border-radius: 6px;
+    
+    margin-right: 0%;
+    margin-left: 1%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    font-family: 'Lucida Sans', 'Courier New', monospace;
+    display: inline-block;
+    vertical-align: top;
+
+    max-width: 40%;
+    white-space: pre-line;
+}
+
+article {
+    /* Linebreaks in body of text should count as visual line breaks for reader */
+    /* TODO: Don't use p for multiple paragraphs. Use <article> */
+    white-space: pre-line;
+}
+
+.everythingbox {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 3%;
+}
+
+/* Probably there should be like, a "post" class with a title and date and stuff? And it should handle paragraph breaks as line breaks. */
+body {
+    background-color: #e8dbce;
+}
+
+ul {
+    /* Don't inherit a bunch of stuff */
+    margin: 0px; 
+    padding: 0px;
+}
+/* Links. Or, attributes?? */
+
+a {
+    color: blue
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
