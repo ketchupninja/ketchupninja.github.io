@@ -3,7 +3,7 @@ class Header extends HTMLElement {
       super();
     }
 
-  static path_root = "/home/matt/Documents/jrrbunga/";
+  static path_root = "https://ketchupninja.github.io/";
 
   connectedCallback() {
     this.innerHTML = `
